@@ -1,0 +1,19 @@
+crear rama y saltar a ella
+git checkout -b etapa1
+lo anterior paso a paso
+$ git branch etapa1
+$ git checkout etapa1
+//remoto
+git remote add origin git@github.com:Dani2305el/ConexionSQLServer.git
+//
+git init
+git add .
+git commit -a "mensaje"
+git push origin master
+git pull origin master
+git status
+git log
+
+
+eliminar origin(repo de github)
+git remote rm origin

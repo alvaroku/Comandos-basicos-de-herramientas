@@ -1,0 +1,24 @@
+npm install -g @angular/cli
+
+ng new my-first-project
+cd my-first-project
+ng serve
+
+
+ng help
+ng generate --help
+
+ng build ku.devBlog -c production
+
+ng g service nombreServicio
+
+ng generate component dado
+ng generate component components/inicio
+
+//libreria para cookies
+npm install ngx-cookie-service --save
+
+cuando la app estará en la raiz del host
+ng build 
+cuando no estará en la raiz del host
+ng build --base-href=/angular/proyecto016/

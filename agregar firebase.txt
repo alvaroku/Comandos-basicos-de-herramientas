@@ -1,0 +1,8 @@
+crear un proyecto
+agregar una aplicacion web
+usar mejor por cdn
+luego copiar y pegar el script
+
+
+tutorial leer y subir datos fiebase
+https://medium.com/@margalida.kaskante/empezando-con-firebase-realtime-database-authentication-a5c54b3b67d6
