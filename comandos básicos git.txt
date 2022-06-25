@@ -1,16 +1,23 @@
 crear rama y saltar a ella
 git checkout -b etapa1
 lo anterior paso a paso
-$ git branch etapa1
-$ git checkout etapa1
-//remoto
+git branch etapa1
+git checkout etapa1
+//repo remoto
 git remote add origin git@github.com:Dani2305el/ConexionSQLServer.git
-//
+//iniciar repo
 git init
+//agregar todo
 git add .
-git commit -a "mensaje"
+//agregar archivo especifico
+git add .gitignore
+//commits
+git commit -m "mensaje"
+//mandar cambios a repo remoto
 git push origin master
+//traer cambios de remoto a local
 git pull origin master
+//comandos para ver info
 git status
 git log
 

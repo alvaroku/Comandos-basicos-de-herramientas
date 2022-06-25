@@ -19,10 +19,13 @@ ng generate --help
 
 ng build ku.devBlog -c production
 
-ng g service nombreServicio
+servicio
+ng generate service services/employees
 
-ng generate component dado
-ng generate component components/inicio
+componentes
+ng generate component components/home
+ng generate component components/about
+ng generate component components/shared/navbar
 
 //libreria para cookies
 npm install ngx-cookie-service --save
