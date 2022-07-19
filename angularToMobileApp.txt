@@ -1,0 +1,21 @@
+npm install @capacitor/core
+npm install @capacitor/cli
+
+npx cap init
+
+npm install @capacitor/ios @capacitor/android
+npm install @capacitor/android
+npm install @capacitor/ios
+
+
+ng build
+
+npx cap add ios
+npx cap add android
+
+
+luego de cada ng build
+npx cap sync
+
+npx cap open ios
+npx cap open android
