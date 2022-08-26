@@ -1,4 +1,4 @@
-git config --global user.name "Alvaro Ku"
+git config --global user.name "Alvaro Kú"
 git config --global user.email "dual.alvaro.ku@gmail.com"
 git config --global user.email "alvaroku123@gmail.com"
 
@@ -28,3 +28,6 @@ git checkout -b etapa1
 //lo anterior paso a paso
 git branch etapa1
 git checkout etapa1
+
+//volver a un commit y eliminar los cambios siguentes a ese commit
+git reset --hard d4e428e
