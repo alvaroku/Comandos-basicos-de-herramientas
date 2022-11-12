@@ -1,7 +1,12 @@
+----------------------------------------------
+		COMANDOS BÁSICOS DE GIT
+----------------------------------------------
+#CONFIGURACIÓN INICIAL#
 git config --global user.name "Alvaro Kú"
 git config --global user.email "dual.alvaro.ku@gmail.com"
 git config --global user.email "alvaroku123@gmail.com"
 
+#PARA LAS REPOS REPOS#
 //iniciar repo
 git init
 //agregar todo
@@ -10,8 +15,8 @@ git add .
 git add .gitignore
 //commits
 git commit -m "mensaje"
-//repo remoto
-git remote add origin git@github.com:Dani2305el/ConexionSQLServer.git
+//repo remoto, crearlo en github-->copiar el enlace del apartado code
+git remote add origin <pegar el enlace>
 //mandar cambios a repo remoto
 git push origin master
 //traer cambios de remoto a local
@@ -26,8 +31,20 @@ git remote rm origin
 //crear rama y saltar a ella
 git checkout -b etapa1
 //lo anterior paso a paso
+//crear rama
 git branch etapa1
+//saltar a ella
 git checkout etapa1
 
-//volver a un commit y eliminar los cambios siguentes a ese commit
-git reset --hard d4e428e
+//volver a un commit y eliminar los cambios siguientes a ese commit
+git reset --hard cpypaste-el-id-del-commit
+//para lo anterior si al hacer un push se presenta problemas, usar lo siguiente para forzar el reset en el origin
+git push -f origin  users/alvaro.ku/44160
+
+//reparar el ultimo commit
+git commit --amend -m "mensaje"
+
+
+
+//para error unable to access
+git config --global http.sslverify "false"
