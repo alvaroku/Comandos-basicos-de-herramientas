@@ -2,17 +2,17 @@
 Comandos útiles para las herramientas de desarrollo
 
 ----
-#------------------------------
-#COMANDOS BÁSICOS DE GIT
-#------------------------------
-####CONFIGURACIÓN INICIAL
+# ------------------------------
+# COMANDOS BÁSICOS DE GIT
+# ------------------------------
+#### CONFIGURACIÓN INICIAL
 ##### usuario
 `git config --global user.name "Alvaro Kú"`
 ##### correo
 `git config --global user.email "tucorreo@gmail.com"`
 
 ----
-####PARA LAS REPOS
+#### PARA LAS REPOS
 ##### iniciar repo
 `git init`
 ##### agregar todo
@@ -34,7 +34,7 @@ Comandos útiles para las herramientas de desarrollo
 `git log`
 
 ----
-####PARA LAS RAMAS
+#### PARA LAS RAMAS
 ##### eliminar origin(repo de github)
 `git remote rm origin`
 ##### crear rama y saltar a ella
@@ -46,7 +46,7 @@ Comandos útiles para las herramientas de desarrollo
 `git checkout <nombrerama>`
 
 ----
-####PARA REGRESAR A CAMBIOS ANTERIORES
+#### PARA REGRESAR A CAMBIOS ANTERIORES
 ##### volver a un commit y eliminar los cambios siguientes a ese commit
 `git reset --hard <id-del-commit>`
 ##### para lo anterior si al hacer un push se presenta problemas, usar lo siguiente para forzar el reset en el origin
