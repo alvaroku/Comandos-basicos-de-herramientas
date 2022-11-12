@@ -1,10 +1,6 @@
 # Comandos-basicos-de-herramientas
 Comandos útiles para las herramientas de desarrollo
 ----
-**Table of Contents**
-
-[TOCM]
-----
 # ------------------------------
 # COMANDOS BÁSICOS DE GIT
 # ------------------------------
