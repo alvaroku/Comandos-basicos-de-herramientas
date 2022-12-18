@@ -1,6 +1,10 @@
 ----------------------------------------------
 		COMANDOS BÁSICOS DE GIT
 ----------------------------------------------
+#Generar shh
+ ssh-keygen -t ed25519 -C "your_email@example.com"
+ eval "$(ssh-agent -s)"
+ ssh-add ~/.ssh/id_ed25519
 #CONFIGURACIÓN INICIAL#
 git config --global user.name "Alvaro Kú"
 git config --global user.email "dual.alvaro.ku@gmail.com"
