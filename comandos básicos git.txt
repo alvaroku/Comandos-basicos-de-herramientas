@@ -45,6 +45,11 @@ git reset --hard cpypaste-el-id-del-commit
 //para lo anterior si al hacer un push se presenta problemas, usar lo siguiente para forzar el reset en el origin
 git push -f origin  users/alvaro.ku/44160
 
+//regresa al commit dado, sacando los cambios como si no hayas hecho un add(rojo)
+git reset --mixed idcommit
+//regresa al commit dado, sacando los cambios como si hayas hecho un add sin "git commit -m"(verde)
+git reset --soft idcommit
+
 //reparar el ultimo commit
 git commit --amend -m "mensaje"
 
