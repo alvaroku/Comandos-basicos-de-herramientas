@@ -1,9 +1,5 @@
-# Comandos-basicos-de-herramientas
-Comandos útiles para las herramientas de desarrollo
-----
-# ------------------------------
 # COMANDOS BÁSICOS DE GIT
-# ------------------------------
+
 #### CONFIGURACIÓN INICIAL
 ##### usuario
 `git config --global user.name "Alvaro Kú"`
