@@ -1,7 +1,0 @@
-Perl 
-cmd
-powershell -Command "& $([scriptblock]::Create((New-Object Net.WebClient).DownloadString('https://platform.activestate.com/dl/cli/1589522015.1647965231_pdli01/install-latest.ps1'))) -c'state activate --default daniel2305/Perl-5.34.0-Windows'"
-
-Perl -v
-
-perl hello.pl 

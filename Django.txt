@@ -1,4 +1,0 @@
-py -m pip install django
-py -m django --version
-py -m django startproject helloworld
-py manage.py runserver

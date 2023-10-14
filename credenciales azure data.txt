@@ -1,8 +1,0 @@
-bd azure
-us: alvaro
-pass: @daniel1
-
-cadena de conexion para managementsystem_db
-Server=tcp:managementsystem-server.database.windows.net,1433;Initial Catalog=managementsystem_db;Persist Security Info=False;User ID=alvaro;Password=@daniel1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
-
-url de la pagina:  https://managementsystem.azurewebsites.net/
